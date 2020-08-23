@@ -5,7 +5,7 @@ function setup() {
 }
 function geschoss () {
     strokeWeight(0);
-    fill("#0000f0");
+    fill("#000000");
     ellipse(kugelX, 275, 30, 30);
 }
 var level = true;
