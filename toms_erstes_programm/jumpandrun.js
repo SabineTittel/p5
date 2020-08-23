@@ -59,7 +59,8 @@ draw = function () {
     fill("#e38e1b");
     rect(1240, 250, 40, 50);
     rect(1228, 246, 12, 58);
-    kugelX -= 4,7;
+    kugelX -= 4,7
+    ;
 
     if (ballX >= 1228 && ballY > 247) {
         boden = 248;
@@ -164,7 +165,7 @@ draw = function () {
 function keyPressed() {
     if (keyCode === UP_ARROW && springen === false && ballY === boden) {
         springen = true;
-        vv = 20; // v_0 springen
+        vv = 15; // v_0 springen
     }
 }
 
