@@ -59,7 +59,7 @@ draw = function () {
     fill("#e38e1b");
     rect(1240, 250, 40, 50);
     rect(1228, 246, 12, 58);
-    kugelX -= 5;
+    kugelX -= 4,7;
 
     if (ballX >= 1228 && ballY > 247) {
         boden = 248;
